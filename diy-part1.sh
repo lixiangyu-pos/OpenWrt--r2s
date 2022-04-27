@@ -15,3 +15,4 @@
 
 # Add a feed source
 sed -i '$a src-git smpackage https://github.com/kenzok78/small-package' feeds.conf.default
+git clone https://github.com/281677160/luci-app-autoupdate.git package/luci-app-autoupdate
